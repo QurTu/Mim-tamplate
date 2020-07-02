@@ -1,0 +1,19 @@
+.line {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    width: 100%;
+}
+    .line > .top {
+        border: #777 solid 1px;
+       width: 60px;
+        background-color: aquamarine;
+        margin: 0 calc(50% - 30px) ;
+        margin-bottom: 3px;
+    }
+    .line > .bot {
+        border: #888 solid 1px;
+       width: 100px;
+       margin: 0 calc(50% - 50px) ;
+        background-color: aquamarine;
+    }

@@ -1,0 +1,28 @@
+header {
+    display: inline-block;
+    width: 100%;
+}
+    .logo {
+        float: left;
+        
+    }
+        .logo > img {
+            height: 45px;
+        }
+    nav {
+        float: right;
+    }
+    nav > a {
+        line-height: 45px;
+        font-size: 18px;
+        padding-left: 20px;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-weight: 100;
+        color: #777;
+    }
+    nav > a:hover {
+        font-size: 20px;
+        transition:  0.2s;
+        color: #444;
+    }

@@ -1,38 +1,45 @@
 .container {
     width: 1400px;
     background-color: aquamarine;
-    margin: 50px calc(50% - 700px);
+    margin: 50px calc(50% - 700px) 0;
 }
 
+
+@media ( max-width: 1500px ) {
+    .container  {
+        width: 1250px;
+        margin: 50px calc(50% - 625px);
+    }
+}
 
 @media ( max-width: 1300px ) {
     .container  {
         width: 1150px;
-        margin: 0 calc(50% - 575px);
+        margin: 50px calc(50% - 575px);
     }
 }
 @media ( max-width: 1200px ) {
     .container  {
         width: 1000px;
-        margin: 0 calc(50% - 500px);
+        margin: 50px calc(50% - 500px);
     }
 }
 @media ( max-width: 1100px ) {
     .container  {
         width: 800px;
-        margin: 0 calc(50% - 400px);
+        margin: 50px calc(50% - 400px);
     }
 }
 @media ( max-width: 900px ) {
     .container  {
         width: 700px;
-        margin: 0 calc(50% - 350px);
+        margin: 50px calc(50% - 350px);
     }
 }
 @media ( max-width: 768px ) {
     .container  {
         width: 100%;
         margin: 0;
-        padding: 0 20px;
+        padding: 50px 20px;
     }
 }

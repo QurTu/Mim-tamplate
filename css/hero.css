@@ -1,0 +1,41 @@
+.hero {
+    display: flex;
+    align-items: center; 
+    justify-content:  space-between ; 
+}
+    .hero-text {
+        width: 70%;
+    }
+    .author-photo {
+       
+        width: 30%;
+        
+    }
+    .author-photo > img {
+        width: 100%;
+        min-height: 500px;
+    }
+
+    @media ( max-width: 1350px ) {
+        .hero-text {
+            width: 50%;
+        }
+        .author-photo {
+            width: 40%;   
+        }
+    }
+ 
+    @media ( max-width: 768px ) {
+        .hero {
+            display: inline-block;    
+        }
+        .hero-text {
+            width: 100%;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+        .author-photo {
+            width: 100%;  
+            min-height: auto; 
+        }
+    }

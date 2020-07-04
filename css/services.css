@@ -1,0 +1,10 @@
+.services-content {
+    display: flex;
+    padding:5px;
+    text-align: center;
+}
+    .servis {
+        margin:10px;
+        border: 2px solid #aaa;
+        padding:  50px 10px;
+    }

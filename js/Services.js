@@ -11,6 +11,9 @@ export default class Services {
            let HTML = '';
             HTML = `<div class='servis'>
             <i class='${this.font}'> </i>
+            <div class="line">
+            <div class="top"></div>
+            </div>
              <div class='head'> ${this.header} </div>
              <div class='text'> ${this.text}</div>
             </div>  ` ;

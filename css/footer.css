@@ -1,4 +1,31 @@
-.footer {
+.footer.container {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 0;
+    margin-top: 0;
+    height: 40px;
+    
 }
+    .footer > .copy {
+        line-height: 40px;
+        color: #777;
+    }
+    .footer > .social > a {
+        color: #777;
+        line-height: 40px;
+        text-transform: uppercase;
+        text-decoration: none;
+        margin-left: 20px;  
+    }
+    .footer > .social > a:hover {
+        color: black;
+       
+    }
+
+    @media ( max-width: 900px ) {
+        .footer.container {
+            display: inline-block;
+            text-align: center;
+            
+        }
+    }

@@ -1,0 +1,27 @@
+.portfolio-types {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    margin: 10px 0;
+
+}
+    .portfolio-types > .type {
+        margin-left:  15px;
+        color: #777;
+        line-height: 20px;
+        font-size: 16px;
+    }
+    .portfolio-types > .type:hover {
+        margin-left:  15px;
+        color: black;
+        transition: 0.2s;
+        line-height: 20px;
+        font-size: 18px;
+        cursor: pointer;
+        
+    }
+.galley-picture {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}

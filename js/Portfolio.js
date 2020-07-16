@@ -28,10 +28,10 @@ export default class Portfolio {
         for(let i = 0; i < this.data.length; i++) {
               if(this.data[i].category.includes(filter)) {
                 HTML = `
-                <div>
+                <div class="span${this.data[i].size}">
                 <img src="${this.data[i].img}" alt="portfolio img">
                 <div class="gallery-overlay">
-                <div>
+                <div > 
                  <h3> ${this.data[i].name} </h3>
                 <i class="gallery-down fa fa-chain-broken" ></i>
                 <i class="gallery-zoom fa fa-search-plus" aria-hidden="true"></i>
